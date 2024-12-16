@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 /* General Styles */
+=======
+>>>>>>> c930df75ded7daafd7004ffc2e4e0e9a8bea8488
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: #f9f9f9;
 }
 
@@ -26,10 +30,30 @@ main {
 
 /* Menu Grid */
 .menu-grid {
+=======
+}
+header {
+    background-color: #340c00;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 2em;
+    text-align: center;
+}
+#products-container {
+>>>>>>> c930df75ded7daafd7004ffc2e4e0e9a8bea8488
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+<<<<<<< HEAD
     margin-top: 20px;
 }
 
@@ -72,4 +96,12 @@ main {
 
 .menu-item button:hover {
     background-color: #e74c3c;
+=======
+}
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+>>>>>>> c930df75ded7daafd7004ffc2e4e0e9a8bea8488
 }
