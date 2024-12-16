@@ -1,0 +1,74 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container styles */
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Title styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Cart item styling */
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item p {
+    margin: 5px 0;
+}
+
+.cart-item button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #c82333;
+}
+
+/* Cart summary styling */
+#cart-summary {
+    margin-top: 20px;
+    text-align: right;
+}
+
+#cart-summary button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#cart-summary button:hover {
+    background-color: #218838;
+}

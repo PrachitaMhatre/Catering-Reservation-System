@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <main>
+        <h2>Place Your Order</h2>
+        <form id="order-form">
+            <input type="text" id="customer-name" placeholder="Your Name" required>
+            <input type="text" id="address" placeholder="Address (optional for pickup)">
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <label>
+                <input type="radio" name="order-type" value="Delivery" checked> Delivery
+            </label>
+            <label>
+                <input type="radio" name="order-type" value="Pickup"> Pickup
+            </label>
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+    <script src="scripts/placeOrder.js" type="module"></script>
+</body>
+</html>
